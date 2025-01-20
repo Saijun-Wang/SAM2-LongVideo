@@ -21,9 +21,9 @@ This repository provides a solution for real-time, zero-shot segmentation of lon
    git clone https://github.com/Saijun-Wang/SAM2-LongVideo.git
    cd SAM2-LongVideo
    ```
-   Then open anaconda prompt, and create our virtual envioronment.
+   Then open anaconda prompt, and create the virtual envioronment.
    ```bash
-   conda create -n SAM2_test python=3.11
+   conda create -n SAM2_LongVideo python=3.11
    ```
 
 2. Install required packages:
