@@ -1,0 +1,20 @@
+use_pretrained_YOLO : True
+yolo_model : "bestdog.pt"
+sam2_checkpoint : "checkpoints/sam2_hiera_large.pt"
+sam2_cfg : "sam2_hiera_l.yaml"
+train_number : 250 # Use the first 'train_number' frames to train YOLO
+train_epoch : 300
+train_patience : 50
+yolo_target_size : 640 # The size of YOLO training set images
+save_sam2_results : True # Save the segmentation results of SAM2
+save_yolo_results : True # Save the segmentation results of YOLO
+video_dir : "notebooks/videos/dog"
+object_name : "dog"
+output_dir : "sam2_output_segment"
+output_yolo_dir : "yolo_output_bbox"
+propagate_folder_size : 100
+subsequence : 10 # The folder to start
+confidence_threshold : 0.9
+click : False # TRUE for clicking on the image to provide a point prompt, FALSE for providing coordinates and labels to supply the prompt
+coordinates : [[701, 446],[245,176]]
+labels : [1,0]

@@ -1,0 +1,7 @@
+names:
+- dog
+nc: 1
+path: D:\SAM2-LongVideo\notebooks/videos/dog_dance\data
+test: test\images
+train: train\images
+val: valid\images
