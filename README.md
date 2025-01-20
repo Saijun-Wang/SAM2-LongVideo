@@ -21,7 +21,7 @@ This repository provides a solution for real-time, zero-shot segmentation of lon
    git clone https://github.com/Saijun-Wang/SAM2-LongVideo.git
    cd SAM2-LongVideo
    ```
-Then open anaconda prompt, and create our virtual envioronment.
+   Then open anaconda prompt, and create our virtual envioronment.
    ```bash
    conda create -n SAM2_test python=3.11
    ```
@@ -38,7 +38,7 @@ Then open anaconda prompt, and create our virtual envioronment.
    pip install imageio
    pip install ultralytics
    ```
-Then use the installation command, make sure that the the working directory is in the segment-anything-2 folder
+   Then use the installation command, make sure that the the working directory is in the segment-anything-2 folder
    ```bash
    python setup.py build_ext --inplace
    ```
@@ -64,9 +64,6 @@ If you want to track an object in a video, you can directly use `SAM2-LongVideo.
 
 Segmentation results will be saved in the specified output directory.
 
-Here’s how you can describe your parameters in the `README.md` file:
-
----
 
 ## Parameters
 
