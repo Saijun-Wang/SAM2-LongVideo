@@ -52,7 +52,8 @@ This repository provides a solution for real-time, zero-shot segmentation of lon
 
 ### 1. Prepare Your Video
 
-Convert your video into frames using 'video2frame.py'. If you want to reduce the frames per second, you can use 'fps_down.py'.
+The image frames should be named as 00001.jpg, 00002.jpg, and so on, incrementing sequentially.
+Convert your video into frames using 'video2frame.py'. If you want to reduce the frames per second, you can use 'fps_down.py'. Once you have the video frames ready, place them in the folder `notebooks/videos`.
 
 ### 2. Run Segmentation
 
