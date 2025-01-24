@@ -31,6 +31,8 @@ data_yaml = {
 
 # Function to init YOLO training dataset
 def init_dataset():
+    if os.path.exists(os.path.join(video_dir, "data")):
+        shutil.rmtree(os.path.join(video_dir, "data"))
     os.makedirs(yolo_target_image, exist_ok=True)
     os.makedirs(yolo_target_label, exist_ok=True)
     os.makedirs(train_images_dir, exist_ok=True)
