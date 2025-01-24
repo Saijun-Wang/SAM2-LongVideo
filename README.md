@@ -133,3 +133,7 @@ Below are the parameters used in the code for video object segmentation and YOLO
 
 - **`labels`**: `[1, 0]`  
   The labels corresponding to each point, used when providing coordinates for the prompt.
+
+  
+## GUI
+You can quickly start and manage the processing of long videos through `GUI.py`, view the segmentation results for each subsequence, and monitor the segmentation progress in real-time by dragging the progress bar.
